@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<repositories version="1.0">
+<!DOCTYPE repositories SYSTEM "https://www.gentoo.org/dtd/repositories.dtd">
+<repositories xmlns="" version="1.0">
     <repo quality="experimental" status="unofficial">
       <name>gamedev-joni-overlay</name>
       <description lang="en">My gamedev related ebuilds</description>
