@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<repositories version="1.0">
+    <repo quality="experimental" status="unofficial">
+      <name>gamedev-joni-overlay</name>
+      <description lang="en">My gamedev related ebuilds</description>
+      <homepage>https://github.com/jkemppainen/gamedev-joni-overlay</homepage>
+      <owner type="person">
+        <email>joni.kemppainen@windowslive.com</email>
+        <name>Joni Kemppainen</name>
+      </owner>
+      <source type="git">https://github.com/jkemppainen/gamedev-joni-overlay.git</source>
+      <source type="git">git+ssh://git@github.com/jkemppainen/gamedev-joni-overlay.git</source>
+      <feed>https://github.com/jkemppainen/gamedev-joni-overlay/commits/master.atom</feed>
+    </repo>
+</repositories>
