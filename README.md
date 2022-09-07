@@ -1,16 +1,30 @@
 # Gentoo ebuilds for GameDev
 
-This repostitory my ebuild repository for gamedev.
-Currently it contains
+This is my Gentoo overlay for gamedev related ebuilds.
+Ebuilds are cooking instructions for Gentoo systems
+on how to fetch, build and install packages.
+
+Current contents
 
 - Panda3D
 
 
 ## Adding the repository
 
-### A) Using Layman
+Please select the method of your preference.
 
-Edit your `/etc/layman/layman.cfg` file to include my overlay listing as follows
+### A) Eselect repository
+
+TBA
+
+### B) Manual
+
+TBA
+
+### C) Using Layman
+
+Edit your `/etc/layman/layman.cfg` file to include the URL of my repositories.xml
+for example as follows
 
 ```
 overlays  :
@@ -26,8 +40,9 @@ layman -a gamedev-joni-overlay
 
 ## Contributing
 
-If you experience build failures and suspect that they are due to
-faulty ebuilds, please feel free to open an issue
-(or a pull request).
+If you experience build failures and suspect they are caused by
+the ebuild being faulty, please consider opening an issue
+or making a pull request.
 
-Same if you think there could be something added.
+Same if you think there could be some features or aspects to be
+added or changed.
