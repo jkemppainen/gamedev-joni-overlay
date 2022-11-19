@@ -207,6 +207,6 @@ python_install()
 	ln -s /opt/panda3d/pandac "${pthdir}/pandac"
 
 	# Add pandas lib to the path of shared libraries
-	echo "LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/opt/panda3d/lib/" >> 50panda3d
+	echo "LD_LIBRARY_PATH=\$LD_LIBRARY_PATH:/opt/panda3d/lib/" >> 50panda3d
 	doenvd 50panda3d
 }
