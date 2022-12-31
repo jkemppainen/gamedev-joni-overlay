@@ -12,7 +12,7 @@ SRC_URI="https://github.com/${PN}/${PN}/archive/v${PV}.tar.gz"
 
 LICENSE="BSD-2"
 SLOT="0"
-KEYWORDS="~amd64 ~x86 ~arm64"
+KEYWORDS="amd64 ~x86 ~arm64"
 IUSE="+cg +eigen +gtk2 +jpeg +openal openexr +png +python ssl tiff +truetype vorbis X zlib
 	assimp opus egl ffmpeg gles1 gles2 bullet ode opencv fftw
 	+direct +opengl tinydisplay swscale swresample
