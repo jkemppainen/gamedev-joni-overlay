@@ -11,17 +11,18 @@ Current packages
 
 ## Adding the repository
 
-Please select the method of your preference.
+Please select one of the following.
 
-### A) Eselect repository
+### A) Eselect repository (recommended)
 
-TBA
+```bash
+eselect repository add gamedev-joni-overlay git https://github.com/jkemppainen/gamedev-joni-overlay
+emaint sync --repo gamedev-joni-overlay
+```
 
-### B) Manual
+### B) Layman (deprecated)
 
-TBA
-
-### C) Using Layman
+Layman is due to removal in Gentoo.
 
 Edit your `/etc/layman/layman.cfg` file to include the URL of my repositories.xml.
 For example
@@ -34,7 +35,7 @@ overlays  :
 
 Then, update all overlays and use Layman to add this overlay to your system.
 
-```
+```bash
 layman -S
 layman -a gamedev-joni-overlay
 ```
